@@ -1,0 +1,187 @@
+html {
+  font-size: 62.5%; /* 16px × 62.5% = 10px */
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN,
+    "メイリオ", Meiryo, sans-serif;
+  font-size: 1.6rem;
+  color: #222;
+}
+a:visited {
+  color: #222;
+}
+.text-center {
+  text-align: center;
+  background-size: cover;
+  background-position: center top;
+}
+
+/* タイトルエリア */
+.title_area {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 2px;
+  height: 50px;
+}
+.icon {
+  padding: 2px 0 0;
+  height: 20px;
+}
+.title_area h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin: 0 20px 0 0;
+}
+.title_area a {
+  padding: 5px;
+}
+
+/* コンテンツエリア */
+.container {
+  position: absolute;
+  top: 75px;
+  left: 20px;
+}
+.container p {
+  margin: 0 0 5px 10px;
+
+}
+.container a {
+  font-size: 1.0rem;
+}
+
+.edit_link {
+  margin: 0 0 0 10px; 
+}
+
+.new_member {
+  margin: 0 0 5px 0px;
+}
+
+.new_category {
+  margin: 5px 0 0 0;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.image_post {
+  margin: 10px 0 0 0;
+}
+
+/* フォーム入力 */
+
+.form_entry {
+  display: flex;
+  margin: 10px 0;
+}
+
+.form_entry>p{
+  width: 100px;
+  text-align: left;
+}
+
+.form_entry>input{
+  width: 225px;
+  text-align: left;
+}
+
+/* index.php の一覧 */
+
+/* リスト全体 */
+.title_and_selections {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.selections {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 10px 10px;
+  font-size: 1.4rem;
+}
+
+.selections>div {
+  margin: 0 0 0 10px;
+}
+
+.item_lists { 
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+/* 1要素（画像・説明セット） */
+.item_set {
+  margin: 0 10px 10px 0;
+}
+.item_set img {
+  width: 200px;
+}
+
+/* 説明部分 */
+.item_description {
+  max-width: 200px;
+}
+.item_description td {
+  font-size: 1.2rem;
+  padding: 0 0 4px 0;
+  line-height: 1.2;
+}
+.edit_delete{
+  margin: 15px 0 0 0px;
+}
+.td_a {
+  width: 32px;
+}
+.item_id {
+  font-size: 2.0rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.item_state {
+  font-size: 1.2rem;
+  margin: 0 0 0 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.item_state>a {
+  margin: 0 0 0 10px;
+}
+.item_titlearea {
+  display: flex;
+  align-items: center;
+}
+
+#video, #canvas {
+  width: 320px;
+  height: 240px;
+}
+
+#photo_select {
+  margin: 20px 0 0 0;
+}
+
+#photo_submit {
+  margin: 5px 0 0 0;
+}
+
+#preview img { /* アップロード画像のプレビュー */
+  margin: 5px 0 0 0;
+  width: 320px;
+}
+
+.add_member {
+  display: flex;
+  flex-direction: column;
+}
