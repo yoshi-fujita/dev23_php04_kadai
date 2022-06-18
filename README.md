@@ -16,6 +16,6 @@
 - Lalavelなどのプラットフォームを使うと、こういうユーザー管理の仕組みはライブラリなどを利用できるようになるのだろうか？
   
 ## ④ その他（感想、シェアしたいことなんでも）
-- Tutor_KiKiKiの教え https://github.com/yoshi-fujita/dev23_php04_kadai/blob/main/Tutor%20KiKiKi%20%E3%81%AE%E6%95%99%E3%81%88.png で、PHPとJSがいつどこで実行されているのかがようやく分かったので図示してみた。
+- Tutor_KiKiKiの教え https://github.com/yoshi-fujita/dev23_php04_kadai/blob/main/Tutor%20KiKiKi%20%E3%81%AE%E6%95%99%E3%81%88.png で、PHPとJSがいつどこで実行されているのかがようやく分かったので図示してみた。https://github.com/yoshi-fujita/dev23_php04_kadai/blob/main/%E5%AE%9F%E8%A1%8C%E9%A0%86%E5%BA%8F.pdf
 - ユーザの追加・削除処理はまだ実装できていないが、土曜日までには完成したい
 - まだ、さくらサーバの立ち上げができておらず、デプロイできずに残念
