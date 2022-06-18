@@ -7,6 +7,10 @@
 - Chromeのconsoleに、ページの遷移と、セッションIDやセッション変数を表示するようにして、それらがどう変化しているのかを見えるようにした。
   - php　は、処理だけのファイルがあり、遷移が見えにくいため
   - regenerateやdestroyなどで、各所のセッションIDやセッション変数がどう変わっているのか分かりにくいため
+- Chromeの開発ツールの設定で、Preserve log upon navigation をONにすると、さらに遷移がわかりやすい
+
+<img width="282" alt="Chrome開発ツールの設定変更" src="https://user-images.githubusercontent.com/32793942/174444977-cd224f2f-dd53-4d55-bf90-cdf89a64938a.png">
+
 
 ## ③ 質問・疑問（あれば）
 - Lalavelなどのプラットフォームを使うと、こういうユーザー管理の仕組みはライブラリなどを利用できるようになるのだろうか？
