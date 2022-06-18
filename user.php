@@ -10,6 +10,10 @@ loginCheck();
 console_log("------------------------ login OK,", "session_regenerate_id(true)");
 session_var_dump();
 
+if (!$_SESSION["kanri_flg"]) {
+  move_page('index.php', 0); // 管理者でなかったら、index.pph に遷移
+}
+
 // db に接続
 $pdo = db_conn();
 
@@ -24,7 +28,7 @@ if ($status === false) {
         $view .= '<p>id: ';
         $view .= $result['id'] . ', name: ' . $result['name'];
         $view .= ', kanri: ' . $result['kanri_flg'] . ', life: ' . $result['life_flg'];
-        $view .= '<a href="delete_user.php?id=' . $result['id'] . '" class="edit_link">';
+        $view .= '<a href="user_delete.php?user_id=' . $result['id'] . '" class="edit_link">';
         $view .= '削除';
         $view .= '</a>';
     }
@@ -63,7 +67,7 @@ if ($status === false) {
     <div class="container">
       <h3>ユーザ追加</h3>
         <div>
-        <form name="form1" action="user__act.php" method="post" class="add_member">
+        <form name="form1" action="user_act.php" method="post" class="add_member">
           <p>name <input type="text" name="name" size="15" required/></p>
           <p>ID <input type="text" name="lid" size="15" required/></p>
           <p>PW <input type="password" name="lpw" size="15" required/></p>

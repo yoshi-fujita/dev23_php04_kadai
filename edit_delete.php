@@ -13,7 +13,7 @@ session_var_dump();
 // db に接続
 $pdo = db_conn();
 
-if (isset($_POST['item_id'])) { // item_id が POST されていたら db に登録
+if (isset($_POST['item_id'])) { // item_id が POST されていたら db から削除
   $item_id = $_POST['item_id'];
   $stmt = $pdo->prepare('DELETE FROM household_list WHERE item_id = :item_id');
   $stmt->bindValue(':item_id', $item_id, PDO::PARAM_STR);

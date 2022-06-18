@@ -23,7 +23,7 @@ session_var_dump();
     <div class="title_area">
       <a href="index.php"><img class="logo" src="image/table_chabudai.png" alt="ちゃぶ台アイコン" title="アイテム一覧"/></a>
       <h2>かざい博物館</h2>
-      <a href="https://github.com/yoshi-fujita/dev23_php03_kadai/blob/main/README.md" target="_blank">
+      <a href="https://github.com/yoshi-fujita/dev23_php04_kadai/blob/main/README.md" target="_blank">
         <img class="icon" src="image/はてなのアイコン.png" alt="ヘルプ" title="ヘルプ">
       </a>
     </div>
